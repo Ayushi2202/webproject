@@ -1,0 +1,124 @@
+/*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins,serif";
+    
+
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html,
+body{
+    background-color: #ffffff;
+}
+.form-container{
+    position:relative;
+    left:20%;
+    height:60%;
+   background-color: #ffffff;
+   align-items: center;
+    
+}
+.contact-form{
+    position: absolute;
+    top: 10%;
+    left:10%;
+    width:30%;
+    height: 600px;
+    
+  
+
+}
+input,textarea{
+    width:100%;
+    margin-top:2rem;
+    border:none;
+    border-bottom:1px solid black;
+
+}
+.submit{
+    border:1px solid black;
+    padding:1rem;
+    text-align: center;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.submit:hover{
+    opacity:0.6s
+}
+.submit{
+    
+    background-color:#0033ff;
+    width:30%;
+    border-radius: 10%;
+    color:#ffffff;
+    
+}*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    background-color: #f4f4f4;
+}
+
+.form-container{
+    left: 25%;
+    width: 50%;
+    background-color: #ffffff;
+    height: 70%;
+    box-shadow: 4px 4px 4px grey;   
+    /* Making the <div> vertically centered */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.contact-form{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 50%;
+}
+
+.header{
+    background-color: black;
+    color: white;
+}
+.header h5{
+   padding: 0.625rem 0.625rem 0.625rem 1.25rem;
+}
+input,textarea{
+    width: 100%;
+    margin-top: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0.625rem;
+}
+.form_body{
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+}
+
+.submit{
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+    background-color: #ffffff;
+    cursor: pointer;
+    /* Setting the width of the button */
+    width: 30%;
+}
+.submit:hover{
+    opacity: 0.6;
+}
+.sndbutton{
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+}
