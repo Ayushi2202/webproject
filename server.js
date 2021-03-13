@@ -16,8 +16,8 @@ app.post('/',(req,res)=>{
     const transport=nodemailer.createTransport({
         service:'Gmail',
         auth:{
-            user:"ayushic061@gmail.com",
-            pass:"*****"
+            user:"ayushichoudhary2202@gmail.com",
+            pass:"iamayushi@2202"
         }
     })
     const mailOptions={
